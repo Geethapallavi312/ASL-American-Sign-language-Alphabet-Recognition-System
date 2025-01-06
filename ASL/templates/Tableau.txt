@@ -1,0 +1,1153 @@
+Tableau
+ableau is a powerful tool used for data analysis and visualization. It allows the creation of amazing and interactive visualization and that too without coding. It provides the features like cleaning, organizing, and visualizing data. 
+What is Tableau? 
+Tableau is a data visualization tool and it allows connecting with a large range of data sources, creating interactive visualizations, and providing features to share work with other team members. It is also used by data analysts and data scientists to explore data and create visualizations that communicate understandings to others. It has an interface that allows drag-and-drop data areas to create charts, graphs, and visualizations to analyze the data which is easier to use for beginners also. It is used by businesses like medicine, technology, e-commerce, etc, to analyze data and make data-driven judgments.
+Connecting Data Sources
+To create a visualization in Tableau, we need to connect with the data source, which includes spreadsheets, cloud services, and databases.
+To connect to a data source, need to provide Tableau with the necessary information, login certifications, and the place of the data source. after we connect to a data source, we are able to see the available data fields and start creating visualizations in Tableau for the analysis of data.
+
+Q.1 What is Tableau?
+
+Answer: Tableau is a data visualization tool that allows you to analyze and display data in an intuitive and user-friendly way.
+
+
+Q.2 Is Tableau difficult to learn?
+
+Answer: While Tableau has a learning curve, it’s generally considered to be one of the more user-friendly data visualization tools available.
+
+Q.3 Can I use Tableau for free?
+
+Answer: Yes, you can use Tableau Public for free. Tableau Public allows you to create and share visualizations online, but your data will be publicly accessible.
+
+
+Q.4 What kind of data sources can I connect to with Tableau?
+
+Answer: Tableau can connect to a wide range of data sources, including spreadsheets, databases, and cloud services.
+
+Q.5 Is Tableau suitable for small businesses?
+
+Answer: Yes, Tableau is suitable for businesses of all sizes. Tableau offers pricing plans that are affordable for small businesses and startups.
+
+
+3. Tableau Online
+Tableau Online can be used to create data visualizations, storyboards, data charts, etc. that are fully hosted on the cloud and not on local servers.
+
+2. Tableau Public
+Tableau Public is a free software provided by Tableau. It is used to create data visualizations and data charts that can be embedded into blogs, web pages, etc. or transferred using social media.
+However, the downside of Tableau Public is that the data visualizations created here are accessible by everyone on the internet and cannot be saved privately. 
+
+
+Advantages of Tableau
+
+2. Obtain detailed insights
+1. Create great visualizations
+3. User-friendly Approach
+4. Support for Different Data Sources
+
+Tableau Prep : It has two products – Tableau Prep Builder and Tableau Prep Conductor to build the data flow and schedule, monitor and manage the work flows across the organization.
+
+Given below is the list of all basic and frequently used Tableau terminologies.
+
+1. Alias: Alias is the alternate name that we can appoint to the field or to a dimension member. 
+
+2. Bin: In the data source, there is a user-defined grouping of measures known as Bin.
+
+3. Bookmark: A Bookmark is a .tbm document found in the bookmark’s envelope of the Tableau repository, which contains a single worksheet. Unlike web program bookmarks, .tbm file is a more suitable way to display different analyses. It helps in upgrading data analysis. 
+
+4. Calculated field: A calculated field is a new field that the user creates, using a formula, to modify the existing fields in a given data source. It is generally created in order to perform analysis more easily and comfortably.
+
+5. Crosstab: A crosstab is used for the text table view. It utilizes various text tables to display the numbers correlated with dimension members.
+
+6. Dashboard: A dashboard is a union of several views arranged on a single page. In Tableau, a dashboard is used to interact with other worksheets and also to observe and differentiate a variety of data simultaneously.
+
+7. Data Pane: A Data pane is situated on the left side of the workbook. It exhibits the data sources field which is connected to Tableau. The fields are further divided into dimensions and measures. A Data pane also unveils custom fields such as calculations, binned fields, and groups. The views of data sources are built by dragging fields from the data pane onto the various shelves which is a part of every worksheet.
+
+8. Data Source Page: As the name suggests, the data source page is a page where we set up the data source. The data source page mainly contains four main areas − left pane, join area, a preview area, and metadata area.
+
+. Dimension: A field of categorical data is known as Dimension. The dimensions are used to hold discrete data like hierarchies and members which cannot be aggregated. The dimensions also hold characteristic values such as dates, names, and geographical data. Examples are dates, customer names, and customer segments.
+
+10. Extract: A saved subset of a data source that can enhance performance and study offline is known as an Extract. We can make an extract by defining limits and filters that contain the data, which you want in the extract.  
+
+11. Filters Shelf: A Filter shelf is also situated on the left side of the workbook. The function of the filters shelf is to exclude the data from a view by filtering it, using both dimensions and measures.
+
+12. Format Pane: A Format pane is found on the left side of the workbook, and it also holds various formatting settings. Its function is to control the entire view of the worksheet, as well as views of the individual fields.
+
+13. Level Of Detail (LOD) Expression: A Level Of Detail Expression is a syntax that assists the combination of various dimensions in addition to the view level. Using Level Of Detail Expression, the user can attach multiple dimensions with an aggregate expression.
+14. Marks: Marks helps in the visual representation of one or more rows in a data source. The users can control the type, color, and size of marks. A mark can be anything like a bar, line, or square, etc.
+
+15. Marks Card: The position of the Marks card is on the left side of the Worksheet. On the marks card, the user can drag and drop fields to the control mark properties such as color, type, shape, size, detail, and tooltip.
+
+16. Pages Shelf: A page shelf is located on the left side of the view. The functioning of the page shelf is to split a view into a sequence of pages on the basis of values and members in a continuous or discrete field. The process of adding a field with the pages shelf is the same as adding a field in rows shelf i.e is for each new row, a new page will be created.
+
+17. Rows Shelf: A Row shelf is situated on the top of the workbook. The row shelf is used in creating the rows of a data table. It can create rows having any numbers of measures and dimensions. If the user places a dimension on the Rows shelf, then Tableau will build headers for the members of that dimension. Whereas if the user places a measure on the Rows shelf, Tableau will build quantitative axes for that particular measure.
+
+18. Shelves: The Shelves are the named areas found on the top and left of the view. The views can be created by placing fields onto the shelves. Some shelves become active when the user selects a particular mark type. Like, the Shape shelf is available only when the user selects the Shape mark type.
+
+19. Workbook: A Workbook is a file having .twb extension, which can carry one or more worksheets as well as dashboards and stories.
+
+20. Worksheet: A sheet where we build views of data set by dragging various fields onto the shelves. The collection of sheets is known as Worksheets. 
+
+What is Power BI?
+Microsoft Power BI is a Data Analytics and Business Intelligence platform that can be used to create a data-driven culture in modern companies. This BI tool has various self-service analytics that can be used to collect, manage, analyze, and share data easily in business. Microsoft Power BI offers hundreds of data visualizations with end-to-end data protection services.
+
+Features of Power BI
+Below are some of the key features that empowers Power BI:
+
+Vast Varieties of Data Visualizations
+Ease in Data Connectivity
+Data Analysis Expression
+Office 365 App Launcher
+Customizable Dashboards
+Companies using Power BI
+There are over 100,000 companies that are using Power BI globally, some of the top-notch one’s are:
+
+LinkedIn
+Pfizer
+Honeywell
+Verizon
+Accenture
+Capgemini
+Oracle, etc.
+Power BI Products
+Power BI Desktop
+Power BI Mobile
+Power BI Service
+Power BI Report Server
+Power BI Report Builder
+Power BI Embedded
+
+What is Tableau?
+Tableau is also one of the most popular Data Analytics and Business Intelligence platforms that are used by businesses to get an idea of their operations using data analysis. Tableau is very famous as it can connect to multiple data sources and also produce detailed data visualizations in a very short time. Tableau also allows its users to prepare, clean, and format their data and then create data visualizations that can be used by businesses to obtain actionable insights.
+
+Features of Power BI
+Below are some of the key features that empowers Tableau:
+
+Attactive Dashboard
+Collab & Share
+Data Sources
+Advanced Visualization
+Predective Analysis, etc.
+Companies using Tableau
+Below are some of the most notable companies that are using Tableau:
+
+Ferrari
+Amazon
+Adobe
+Deloitte
+Cisco
+Lenovo, etc.
+
+Tableau Products
+Tableau Desktop
+Tableau Prep
+Tableau Online
+Tableau Public Desktop
+Tableau Reader
+Tableau Server
+Tableau Mobile
+Tableau Public Server
+
+
+Diff between Power BI and Tableau:
+
+1. Cost of powerBI is less than tableau
+2. Power BI user interface is more user freiendly than the tableau
+3.Power bi provides lesser access to different data sources as compared to Tableau.
+
+
+            Power BI            	                                                                                                                                                                   Tableau            
+R language-based visualizations are supported.                            Full integrated support for R and Python is provided.
+
+It has stringent licensing.                                                               It has flexible licensing.
+
+It only runs on Windows OS.                                                       It can run on Windows, Mac & Linux.
+
+It has limited customer support with a free account.                           The customer support is excellent because of the large community forum open for discussion.
+
+Handles limited data                                                          It can handle a vast volume of data
+
+Capable of handling 10GB data. (beyond that cloud services are required)	It can handle millions & billions of data without any cloud service.
+
+Easy to learn & best fit for beginners	                                It requires extensive learning to work on Tableau
+
+It can be deployed over cloud, on-premise and Windows OS.	                It can be deployed over cloud, on-premise, Windows, Mac, and Linux.
+
+Solid Data Visualization, integration & manipulation	                  Offers hypothetical visualization, ad-hoc analysis, and much more
+
+Cost effective: USD 10/month                                             Expensive: USD 75/month
+
+
+Tableau – Navigation
+n the Tableau, we can see various buttons on the top menu. They are known as navigational buttons
+The main navigational features are –
+
+File menu
+Data menu
+Worksheet menu
+Dashboard menu
+Story menu
+Analysis menu
+Map menu
+Format menu
+File Menu
+File Menu is used to create a new Tableau workbook. It is also used to open existing workbooks from both the local system and Tableau server. The main features of the File menu are –
+
+New: It is used to generate a new file.
+Open: It is used to open a previously saved file.
+Save: As the name suggests, it will save the file.
+Workbook Locale: It is used to set the language which will be used in the report.
+Paste Sheets: It is used to copy sheets from one workbook and paste it into another workbook.
+Export Packaged Workbook: It is used to produce a packaged workbook and share it with other users.
+Page setup: It is used for setting up a page.
+Print and print PDF: It will help to print the workbook.
+
+Data Menu
+The Data Menu helps in creating a new data source that fetches the data for analysis and visualization. The user can replace and upgrade the existing data source with the help of the Data menu. The main features of the Data menu are –
+New Data Source: It is used to view all types of available connections and choose from them.
+Refresh All Extracts: As the name suggests, it is used to refresh the data from the source.
+Edit Relationships: It is used to define the fields in more than one data source for linking.
+Replace data source: It is used to characterize the fields which have more than one information hotspot for connection.
+
+
+Worksheet Menu
+The Worksheet Menu helps in creating a new worksheet in addition to various display features like showing the title and captions, etc. The main features of the Worksheet menu are – 
+
+New worksheet: It is used to generate a new worksheet.
+Show Summary: As the name suggests, it allows the user to view the summary of the data used in the worksheet
+Tooltip: It is used to show the tooltip when hovering over various data fields.
+Run Update: It helps in updating the worksheet data or any filters used.
+
+Dashboard Menu
+The Dashboard Menu helps in creating a new dashboard in addition to various display features, like showing the title and exporting the image, etc. The main features of the Dashboard menu are – 
+
+Format: It is used in setting the layout in terms of colors and sections of the dashboard.
+Actions: It helps in linking the dashboard sheets to external URLs or other sheets.
+Export Image: It is used to export the images of the Dashboard.
+
+
+Story Menu
+The Story Menu helps in creating a new story that has sheets and dashboards with related data. The main features of the Story menu are – 
+
+Format: It helps to set the layout in terms of colors and sections of the story.
+Run Update: As the name suggests, it updates the story with the latest data from the data source.
+Export Image: It helps to export the images of the story.
+Show backward/show forward: It helps to look at the older worksheets.
+
+Analysis Menu
+The Analysis Menu helps in analyzing the data present in the Tableau sheet. Tableau has many unique features, like calculating the percentage and performing a forecast, etc. The main features of the Analysis menu are – 
+
+Forecast: It is used to show the forecast based on available data.
+Trend Lines: It is used to show the trend line for a series of data.
+Create Calculated Field: It is used to produce new fields based on certain calculations on the existing fields.
+Percentage: It is used to calculate the percentage of any given data.
+Special value: It helps to take input of a special kind of value.
+
+Map Menu
+As the name shows, Map Menu is used to build map views in Tableau. The user can assign geographic roles to fields in the given data source. The main features of the Map menu are – 
+
+Map Layers: It is used to hides and show map layers, like street names, country borders, etc.
+Geocoding: It helps in creating new geographic roles and assign them to the geographic fields in the given data source.
+Background image: It is used to set the image in the background.
+
+ormat Menu
+The Format Menu is used to apply various formatting options to enhance the look of the dashboard. It has many features like borders, colors, alignment of text, etc. The main features of the Format menu are – 
+
+Borders: It is used to form borders to the fields displayed in the report.
+Title & Caption: It is used to add the title and caption to the reports.
+Cell Size: It is used to customize the size of the cells.
+Workbook Theme: It provides a theme to the entire workbook.
+Font: It sets the font in the workbook.
+
+Start Page: The Start Page in Tableau is the central location to Connect or Extract Data for your report, and Opens recently used Workbooks.
+Connect to your data
+Open your last used workbooks, and
+Discover and explore content produced by the Tableau community.
+The start page consists of three panes: Connect, Open, and Discover.
+
+To file, to server, saved datasources
+
+Open
+Open recent workbooks, pin workbooks to the start page, and explore sample workbooks.Discover
+See popular views in Tableau Public, read blog posts and news about Tableau, and find training videos and tutorials to help you begin.
+
+Flow of Tableau
+1. Connect to database->Build Data view-> Enhance the data view->Create worksheets-> Create and organize dashboards-> create a story
+
+1. Connect to Data Source
+
+The first step is to connect the data source to Tableau. Tableau can connect to nearly every data sources like text files, relational sources, SQL sources, or cloud databases, etc. There is an inbuilt connector in Tableau to establish a link with data sources.
+
+2. Build Data Views
+
+The next step is to build views, which are also known as reports. After connecting to the data source, we have columns of data set in the Tableau environment. There is a certain drag and drop feature in Tableau to build views.
+
+3. Enhance the Views
+
+Now views are created, the next step is to enhance them further by using filters, aggregations, labeling of axes, formatting of colors and borders, etc.
+
+4. Create Worksheets
+
+On worksheets, we can build different views of the data set. All analyzes of the data set are performed on worksheets.
+
+5. Create and Organize Dashboards
+
+The dashboard is built by linking more than one worksheet. The worksheets must be organized properly so that the Dashboard will look informative and attractive.
+6. Create a Story
+
+When a sheet containing a sequence of worksheets or dashboards come together to convey information, it is known as Story. Stories are created to show how facts are connected, provide context, demonstrate an analyzed report, etc. It is the last step of the Tableau design flow diagram.
+
+Tableau – File System
+
+The types of Tableau files are listed as –
+Tableau Workbook (.twb):
+These kind of files stores visualization without the source data. It means the user can visualize the data using different charts and store it in the workbook but can not store the data along with the visualization.
+
+Tableau Data Source (.tds):
+It works opposite to the Tableau workbook, it stores the data but only a link without the visualization attached. It stores the password, server-address and any other information required to access the data source.
+
+Tableau Bookmark (.tbm):
+It is a very useful file type. It stores a connection to a workbook in another Tableau Workbook. So, if the user has already created a visualization in one workbook then there is no need to recreate it in another workbook.
+
+Tableau Data Extract (.tde):
+It stores the Tableau data as a filtered and aggregated extract. So even if the source data files have thousands of rows of data, you can store the summary version of it.
+
+Tableau Package Workbook (.twbx):
+It stores the extracted data and visualization for viewing in Tableau or Tableau Reader.
+
+Tableau too has a set of data types under which it classifies data value present in it as field values.
+
+In Tableau, we have seven primary data types. The function of Tableau is to automatically detect the data types of various fields, as soon as the data is uploaded from the source and allocate it to the fields. These seven data types are:
+
+String values
+Number/Integer values
+Date values
+Date & Time values
+Boolean values
+Geographic values
+Cluster or mixed values
+
+In Tableau, every data type is denoted by a specific icon is displayed in the table given below:
+We can divide String data type into two types, Char and Varchar.
+Char string type- Char data type normally stores alphanumeric data values having fixed lengths. If the user enters a string value which is greater than the fixed length of the Char data type, then the system returns an error.
+Varchar string type- Varchar data type also stores alphanumeric data values. As the name suggests, Varchar stores data values having a variable length. So, the user can enter as many string values as they want, without facing any restriction from the system.
+
+i) Numeric Data type: This data type consists of both integer type or floating type. Out of which users prefer to use integer type over floating type, as it is difficult to accumulate the decimal point after a certain limit. It also contains a function known as the Round() function which can be used in rounding up float values.
+
+ii) Date and Time Data type: Tableau supports all forms of date and time like dd-mm-yy, or mm-dd-yyyy, etc. And the time data values can be in the form of a decade, year, quarter, month, hour, minutes, seconds, etc. Whenever the user enters data and time values, Tableau automatically registers it under Date data type and Date & Time data value. 
+
+iv) Boolean Data type: As a result of relational calculations, boolean data type values are formed. The boolean data values are either True or False. Many a time the result of a relational calculation is unknown, in this situation Null data values are used. 
+v) Geographic Data type: All values that are used in maps, comes under geographic data type. The example of geographic data values is country name, state name, city, region, postal codes, etc. 
+
+vi) Cluster or Mixed Data type: Sometimes data set contains values having a mixture of data types. Such values are known as cluster group values or mixed data values. In such a situation, users have the option either to handle it manually or allow Tableau to operate on it. 
+Normally, Tableau detects and allocate data types to all fields in a freshly uploaded data set. But, users have the equal right to modify the data types at many stages in Tableau. 
+
+We are going to discuss three major ways in which users can change the data types of existing data fields:
+1. Changing data type of fields in the Data Source page:
+1. Changing data type of fields in the Data Source page:
+
+In order to change the data type of field from the data source, the first step is to click on the field’s data type icon. As a result, a drop-down list will emerge, now choose a new data type and allot it to the values of that field.
+It is clearly visible that the data type of the ‘User Id’ field is changed from Number to String.
+
+2. Changing data type of field from Data pane:
+
+Suppose the user doesn’t want to disturb the data source but still wishes to change the data type of fields, then there exists another option. The user can easily modify the data types from the Data pane of Tableau. The first step is to click on the field’s data type icon. As a result, a drop-down list will emerge, now choose a new data type and apply it to the values of that field.  
+
+Show Me: Show Me window holds the most commonly used charts in Tableau. You can use any of these charts to view the data. Click Show Me on the toolbar to open this window, as we have shown below.
+
+Tableau – Connect to a data source
+
+Visualisation in Tableau starts with connecting to an outside data source. This article explains how to connect Tableau to any external data source.
+Steps to follow –
+
+Run Tableau. On the left side of the start screen, there is a Connect Panel.
+Go to the File Section and choose the type of data file you want. Let’s choose any excel file.
+On clicking the Microsoft Excel option, a dialogue box will appear for the user to choose the required data file. As shown below I have chosen a data – ‘Coral data.xlsx’
+
+Excel sheets
+Excel sheet is one of the most ubiquitous forms of files in the IT Industry. Everyone who uses a computer at one time or the other have come across and worked with Excel spreadsheets. This popularity of Excel is due to its vast range of applications in the field of storing and manipulation of data in a tabular and systematic form.
+
+Data Cleaning in Tableau
+Most of the times the data file contains no straw value and can be used directly for the visualisation. But there can be situations that the data source is not formatted and needs to be clean. So, this article aims to learn how to clean the data file in Tableau.
+Steps to follow:
+
+Open the Tableau and add data source file – YearlyData
+But there might be a problem in this data. The first indication of which can be the displayed message saying that Data Interpreter might be able to clean my Excel workbook.
+
+Steps to follow:
+
+Open the Tableau and add data source file – YearlyData
+But there might be a problem in this data. The first indication of which can be the displayed message saying that Data Interpreter might be able to clean my Excel workbook.
+
+If the data source is too complicated, the Data Interpreter might not be able to help but if a single stray value, or perhaps some irregular formatting is present within your data, then using the Data Interpreter is a great way to solve that problem.
+
+Tableau – Join databases
+
+Steps to perform:
+
+In the Tableau, connect to the databases.
+The data source has three data files – Product, OrderDetails, PropertyInfo. These are three different excel sheet present in one data file.
+Open Product data file.
+Add OrderDetails data file, it contains the information about each order
+Now you can see there is a join in the two data files.
+f you’ll hover on the join then you can see that there is a inner join using the common key i.e. Product ID. Inner join simply means that there are two files have a field in common and it can be combined easily.
+Next, add the PropertyInfo file and it can be see that it is also joined.
+
+Tableau – Joining data files with inconsistent labels
+
+But sometimes there can be a case that the field in common is having the inconsistent naming and then the data sources will not join automatically. This article aims to explain how to deal with this situation.
+
+Steps to perform:
+
+In the Tableau, connect to the databases.
+The data source has three data files – Product, OrderDetails, PropertyInfo. These are three different excel sheet present in one data file.
+
+Open Product data file
+Add OrderDetails data file, it contains the information about each order.
+But now it can be clearly seen that the Tableau indicates that it can not find a match in the field names.
+Actually there is a data field with exactly the same data in both the data sources. So that means that we can create an inner join for the two data sources.
+Click Product ID, and then, over-under OrderDetails hover my mouse pointer over the field.
+Click the down arrow, and from here click Prod ID, which is just a shortened form of Product ID
+Close the dialogue box and now you can notice the data is perfectly joined.
+Similarly you can join as many data sources you want and now the data is completely ready for the visualisation.
+Data blending is a powerful tool supported by Tableau which allows visualizing data sets from separate data sources together in one picture. This article is dedicated to provide a step-by-step procedure for the same.
+
+Data sources in use:
+
+For the example given below, two data sources are used that are by default available with Tableau:
+
+Sample- Superstore
+Sample- Coffee chain
+Approach
+Start application
+Load Primary data source
+Load secondary data sourceBlend or combine data based on a common dimension
+The field that is common in both data sources will have a link image in front of it
+Drag this field for further computation
+Choose your required plot representation and all other requirements
+Your visualization is ready
+A data source in the tableau is a collection of tables which can be analyzed together as per requirement.
+Step-by-step Approach
+Open Application
+Load dataset to be replaced
+Select Data
+Select Add New Source
+A dialog box to load another dataset will appear
+Load data source to replace the existing one
+Again go to Data
+Select Replace Data SourceA dialog box will appear, first enter the name of the data source to be replaced then enter the name of the data source to be replaced with.
+Press OK
+After the replacement you may notice a red exclamation mark in front of some fields, this is the indication that these fields have no meaning or value for second data source.
+
+Tableau – Split the text to columns
+
+When you are working on a well defined structured data, it divides information into discrete units. For example, if you have an employee name in your data you should split it into first name, middle name and last name columns if possible. If you need to work with data that combines multiple values into a single column you can try to split the text into multiple columns to make it easier to work with. This article aims to show how to split a text to multiple columns.
+
+Steps to perform:
+
+In the Tableau, connect to the databases.
+Let’s connect to a data as I have shown in the image given below. That’s a Product data named as Name_data
+Increase the size of the Product Combined column, you can see that you have two different values. The first is the name of a product, such as a Large Towel and then a colon(:), and then housekeeping. Housekeeping is actually the category that the product comes within. So we have towels for housekeeping, both large and hand towels and so on. Now we want to split this Product Combined column into two columns.
+By hovering my mouse pointer over the Product Combined header, you click the down arrow that appears at the top right corner and there you have a split option.
+
+When you will click the split option, Tableau splits the data based on the colon that you have in the middle, so it recognized it as a separator and now you have Product Combined and then Product Combined split 1 and Product Combined split 2.
+
+You can also rename these columns.
+
+So, finally your data is ready and you can easily get the visualisation of this data.
+
+Tableau – Displaying data in Worksheet
+
+After creating the visualisations or while creating the visualisations if you want to look at the data in a worksheet, then, in that case, you need to follow some steps that we will see in this article.
+
+Steps to perform:
+
+In the Tableau, connect to the databases.
+The data source has three data files – Product, OrderDetails, PropertyInfo. These are three different excel sheet present in one data file.
+Open Product data file.
+Add OrderDetails data file, it contains the information about each order.Now you can see there is a join in the two data files.
+Now, that data is completely ready for data visualisation.
+
+Tableau – Adding, Renaming and duplicating worksheets
+Tableau workbooks store the data on worksheets. Each worksheet can contain a visualization or a dashboard. This article aims to show how to perform different operations on the worksheets like how to add, duplicate, and rename worksheets.
+
+
+To duplicate:Go the sheet option and then select duplicate option, this will mimmic the same task of the original worksheet.
+
+Tableau – Create Visualization
+Now after getting the formatting or cleaning the data (if required), the dataset is completely ready for visualization that is the main purpose of using Tableau. This article aims to understand how to create a serious of visualisation in Tableau.
+Tableau – Change the order in visualisation
+After creating a visualization in Tableau, in this article, we will learn how to change the organization of your data by manipulating the order of its fields.
+When you are creating your visualisations, you might want to summarize your data like the user can require the sum of the data, the number of products ordered to have some analysis
+
+Tableau – Operators
+
+The symbols which tell the compiler to execute specific mathematical or logical manipulations are known as Operators. Tableau too has a good number of operators, which help in the formation of calculated fields and formulas.
+
+Tableau has 4 basic types of Operators as mentioned below:
+
+General Tableau Operators
+Arithmetic Tableau Operators
+Relational Tableau Operators
+Logical Tableau Operators
+GENERAL TABLEAU OPERATORS –
+
+The operator which we generally use in mathematics computation comes under this category, like Addition and Subtraction. 
+
+Addition:    +
+Subtraction:    –
+
+#May 15, 2014# + 17 = #June 1, 2014#
+
+ARITHMETIC TABLEAU OPERATORS – 
+
+The operators which help to perform arithmetic calculations on different fields of uploaded data source are known as Arithmetic operators. 
+
+Multiply:    *
+Divide:    /
+Modulation:   %
+Power:   ^
+
+RELATIONAL TABLEAU OPERATORS – 
+
+A relational operator or comparison operator is a binary operator that takes two operands as input, compare their values and returns the output. A comparison operator is generally used in conditional statements, loops, where the comparison result will decide, whether execution should go ahead or not.  
+
+Equality Operator:   =
+Not Equality Operator:   < >,  !=, ^=
+Greater Than Operator:   >
+Less Than Operator:   <
+Greater Than Equal to Operator:   >=
+Less Than Equal to Operator:   <=
+
+
+LOGICAL TABLEAU OPERATORS – 
+
+In Logical operator, there are three basic commands – 
+
+Logical conjunction operator or “AND” operator
+Logical disjunction operator or “ OR” operator
+Logical negation operator or “NOT” operator
+
+
+IF Function: Tableau If Function is one of the foremost useful decision-making functions. If the function tests the condition and depending upon the condition result, it’ll return the output.
+
+How IF function works:
+
+It starts with “IF” function evaluating the 1st logical expression corresponding to set/sequence of values and when the logical expression becomes True, it returns the respective specified value as result.
+If the first doesn’t match then it moves to another if i.e ELSEIF and checks the same as for IF.
+If in logical expressions no match is found then the value of default i.e; ELSE return expression is used.
+
+In this example, we simply create a new calculated field by using the IF function on a field.
+View a new calculated field.
+Use in Visualization.
+It has a drawback that creates null values in case of the false condition.
+
+
+Example 2: (IF-ELSE-END)
+
+In this example, we simply edit that previously calculated field by using the IF-ELSE function in the same field.
+View a new calculated field.
+Use in Visualization.
+It overcomes a drawback that creates null values in case of the false condition.
+
+Example 3: (IF-ELSEIF-ELSE-END)
+
+In this example, we simply create a new calculated field by using the IF-ELSEIF-ELSE function on a field.
+View a new calculated field.
+Use in Visualization.
+
+Aggregate Functions in Tableau
+Aggregate Function: Aggregate function can be a function where the values ​​of multiple lines are grouped together to form a single summative value. Typical integration functions include: Measurement (e.g., arithmetic means), Count, etc.
+
+The most commonly used functions in tableau are listed below:
+
+SUM: sum of values
+AVG: average of values
+MIN: minimum of values
+MAX: maximum of values
+VAR: variance of sample population
+VARP: variance of entire population
+STDEV: standard deviation of sample population
+STDEVP: standard deviation of entire population
+COUNT: count of values
+
+Tableau Sum Function
+The Tableau Sum function is employed to seek out the Sum of records during a column. 
+
+Syntax:
+
+SUM(Expression)
+
+Tableau Avg Function
+The Tableau Avg or average function is used to calculate the Average. 
+
+Syntax:
+
+AVG(Expression)
+Tableau MIN Function
+The Tableau MIN function is an aggregate function in Tableau, which is employed to seek out the minimum value. 
+
+Syntax:
+
+MIN(Expression1, Expression2)
+Tableau MAX Function
+The Tableau MAX function is employed to seek out the utmost value. 
+
+Syntax:
+
+MAX(Expression 1, Expression 2)
+
+Tableau VAR Function
+The Tableau VAR function is an aggregate function in tableau, which is used to find the Variance of the sample population. 
+
+Syntax:
+
+VAR(Expression)
+Tableau VARP Function
+The Tableau VARP function is employed to seek out the Variance of the whole population. 
+
+Syntax:
+
+VARP(Expression)
+Tableau STDEV Function
+The Tableau STDEV function is one of the aggregate functions in tableau, which is used to find the standard deviation of the sample population. 
+
+Syntax:
+
+STDEV(Expression)
+Tableau STDEVP Function
+The Tableau STDEVP function is for locating the quality deviation of the whole population. 
+
+Syntax:
+
+STDEVP(Expression)
+Tableau COUNT Function
+The Tableau COUNT function is one of the Tableau aggregate function, which is used to find the number of not null values. 
+
+Syntax:
+
+COUNT(Expression)
+To create a calculated field you have to follow given instructions.
+
+Go to Analysis or down arrow.
+Click on create calculated field
+Write the field name
+Write the field formula for creation
+Click Apply button.
+You are done and see the data.
+
+Logical Functions in Tableau
+Logical Function: Tableau provides various Logical Functions to perform logical operations on our data. They are Tableau AND, NOT, OR, IF, ELSEIF, IF Else, CASE, ISNULL, IFNULL, ZN, IIF, etc.
+AND Function: The AND Function is employed to see multiple expressions. The syntax of the AND Function is as shown below:
+
+Expression_1 AND Expression_2
+
+If both the conditions are True, it returns True. Otherwise, it returns False.
+
+To demonstrate this logical function in Tableau, we have to use Calculated Fields.
+To create a calculated field, please navigate to Analysis Tab and choose the Create Calculated Field… option.
+Use the expression in the newly created field
+
+OR Function: The Tableau OR function is like an either-or statement in English. If both the conditions are False, Tableau or will return False; otherwise, it returns True. The syntax of this Tableau OR Function is:
+
+Expression_1 OR Expression_2
+
+IIF Function: The Tableau IIF function is that the simple version of the If Else Function. If both the condition is True, then it’ll return First Statement otherwise, the second statement. The syntax of this Tableau IIF Function is:
+
+IIF(Expression, True_statement, False_Statement)
+
+NOT Function: The Tableau NOT function return the exact opposite. I mean, True will become false and vice versa. The syntax of this Tableau NOT Function is:
+
+NOT(Expression)
+
+ISNULL Function: Tableau ISNULL function will check whether it is NULL or Not. If it’s NULL, then it returns TRUE; otherwise, False will return. The syntax of the Tableau ISNULL Function is:
+
+ISNULL(Expression)
+
+ZN Function: Tableau ZN function will return the first values of Not Null values, and 0 for Null values. In simple English, ZN in Tableau is employed to exchange the NULL values with 0. The syntax of the Tableau ZN Function is:
+
+ZN(Expression)  # Return expression if it is not zero else return 0 for it.
+
+IFNULL Function: Tableau IFNULL function is employed to exchange the NULL values together with your own. The syntax of the Tableau IFNULL Function is:
+
+IFNULL(Expression, Value)
+
+Case Function: Case Function is the part of Logical functions in Tableau. These functions are used to perform the logical test and return the required value when the test expression is true.
+
+CASE [<expression>]
+    WHEN <expression> THEN <expression>
+    WHEN <expression> THEN <expression>
+    ELSE <expression>
+END
+
+Case Function in Tableau
+How CASE function works:
+It starts with CASE function evaluating the 1st logical expression corresponding to set/sequence of values and when the logical expression becomes True, it returns the respective specified value as result.
+If no match is found in logical expression then the value of default return expression is used.
+In case no default value is being mentioned by the user then NULL is returned.
+
+
+Advantages of using CASE Function:
+CASE-WHEN statements are easier to write down and comprehend.
+Due to its simplicity, for a user, it’s helpful to avoid making mistakes like referencing the incorrect field.
+CASE-WHEN statements perform faster than IF-ELSE statements.
+Disadvantages of using CASE Function:
+Usage of CASE-WHEN in Tableau is extremely limited as they can’t perform Boolean logic conditions.
+CASE-WHEN in tableau only compares the expression to the precise values.
+Conditional operators like OR, AND can’t be used with CASE-WHEN.
+Using CASE-WHEN, multiple expressions can’t be evaluated during a single line.
+
+Highlight Tables in Tableau
+
+Highlight Tables 
+The highlight table allows us to use conditional formatting to a view of a normal table.
+Tableau will automatically apply a color scheme in either endless or stepped array of colors from highest to lowest.
+It’s great for comparing a field’s values within a row or column.
+Use highlight tables to match categorical data using color.
+Highlight tables are often outstanding as they help users quickly spot the foremost interesting values during a table of numbers.
+In cases where multiple variables are displayed, Measure Values are often used to apply one color scheme to all or any of the values in a table.
+Unless the variables are very similar, highlighting multiple variables is typically not helpful and can mislead.
+
+o create a highlight table you have to form a table first by selecting the minimum two attributes( one in row and one in column) by drag and drop then select the chart option as highlight tables.
+
+
+Quick Table Calculation in Tableau
+
+To apply quick table calculation you have to form a crosstab. Examples are given below:
+
+Example 1: In this example, you can use the following steps :
+
+Drag and drop the Category and Subcategory fields in column and Sales field in row.
+Click on crosstab.
+Click on quick table calculation for sales.
+Select the percentage.
+And result is there.
+LOD expression in Tableau
+
+LOD stands for the level of detail and it is just a mechanism supported by tableau to implement complex queries which have always been done using a Structured Query Language. Tableau helps achieve same level granularity between dimensions and can be easily applied by someone who has no idea about any Structured Query Language but understands their data needs well.
+
+Syntax:
+{ <LOD type> <dimension> : <calculation>}
+
+There are three types of LOD supported:
+
+Exclude: This LOD type is used to exclude specified dimension from the view.
+Include: This LOD type is used to include a specified dimension along with other dimensions within the view.
+Fixed: Unlike exclude and include, fixed doesn’t depend on what is on the view rather focuses more on calculations. Thus it produces a fixed value for the specified dimensions.
+
+Exclude 
+This LOD type is used to exclude specified dimension from the view. Given below is an implementation with proper steps to achieve exclude LOD:
+Query:
+
+For a sub-category, the element gets total sales of the category it belongs to. Note that the query doesn’t ask for sub-category sale but the total sale of the category it belongs to, thereby, excluding the individual sales.
+
+Start application
+Connect data
+Move the required dimensions. In the given example category is moved to rows and sales is moved to reflect the respective sales.
+Add sub-category dimension to rows to see what initial data looks like:
+
+Add a query to exclude: select downward arrow given along sub-category.
+A dialog box appears:
+
+Select Create–> Calculated field
+A dialog box will appear:
+Add the name of the query and query and select OK
+The name of the query will appear in the list of dimensions on the left of the sheet.
+Drag exclude and drop it to your table.
+
+Include
+This LOD type is used to include a specified dimension along with other dimensions within the view. Given below is an implementation with proper steps to achieve include LOD:
+
+Query:
+
+Get average of the manufacturer sales as well as average sales for each category. In this average manufacturer, sales will be included within the dimensions in the view.
+
+Start application
+Connect data
+Add the required dimension. Here category, sub-category and sales.
+
+For including manufacturers average sale- select the downward arrow given in front of the manufacturer dimension.
+A dialog box appears:
+Select create–> Calculated field
+A dialog box appears:
+Add the name of the query and the query to include. Select OK.
+
+Here we have taken SUM(sales) for manufacturer sales for each category and named this query as include.
+Add include to view
+
+Resultant data gives an average of sales as well as the average of manufacturer sales that can be used for further analysis.
+
+
+Fixed
+Unlike exclude and include, fixed doesn’t depend on what is on the view rather focuses more on calculations. Thus, it produces a fixed value for the specified dimensions.
+
+Query:
+
+Get the maximum profit each manufacturer has earned for each product. Here the maximum value for the profit will be fixed for various manufacturers. A manufacturer is capable of producing more than one product for such cases the maximum profit will be produced irrespective of the product.  
+
+Start application
+Connect data
+Move the required dimensions. Here, category, sub-category and manufacturer is moved to rows.
+Select the downward arrow given in front of the manufacturer
+Select Create–>  Calculated field
+A dialog box will appear:
+Add a query to create a required query, select OK.
+Fixed IOD will be visible on left of the sheet along with other dimensions, drag and drop it to the sheet
+To analyze for a single manufacturer, right-click on the manufacturer and select keep the only option.
+
+Filtering in Visualization in Tableau
+
+Filtering: Filter a visualization to limit and customize the data displayed on visualization in a dashboard. For example, you can filter the visualization to display only selected geographical regions, the top five most-profitable regions, or those regions with more than $1 million in revenue.
+Visualization: Data Visualization is the presentation of data in graphical format. It helps people understand the significance of data by summarizing and presenting huge amount of data in a simple and easy-to-understand format and helps communicate information clearly and effectively.
+For this we have to follow some steps :
+
+Open the Tableau tool and connect a dataset into it.
+Drag and drop the one sheet of the connected dataset.
+Click on sheet1 to open the tableau worksheet.
+On clicking Sheet1 you will get whole dataset attributes on the left side and a worksheet for work.
+
+Here, the visualization part is filtered according to the field and aggregation function on that field. In which you can apply the limit on values generated from aggregated function. The limited values (which pass the limit) are applied on the graph to filter the visualization. This is mostly used when users want some limited data to analyze.
+
+We can apply filters with these 4 conditions:
+
+Range of Values
+At least
+At most
+Special – To filter null values.
+
+Quick Filter in Tableau
+To apply quick filtering, prepare a worksheet with some graphs or charts.
+Adding the filter card
+Options for modifying the filter
+Working of Single Valued filters ( single value list, single value slider, single value drop down)
+Working of Multi-Valued filters( list, dropdown, custom list)
+Working of WildCard Match
+
+Context Filter in Tableau
+To apply context filtering, prepare a worksheet with some graphs or charts.
+Add a filter by an attribute
+Apply another attribute for context filtering
+Removing Context Filter
+
+Conditional Filter in Tableau
+To apply conditional filtering, prepare a worksheet with some graphs or charts.
+
+By clicking on the filter and then on the condition you will get the window given below :
+Here one can apply conditional filter either by using field value with a condition or by applying a formula to the values of one or multiple fields.
+
+Applying By field:
+Applying By formula:
+
+Slicing Filter in Tableau
+Slicing Filter: Slicing Filters in Tableau termed as Calculation Filters or Slicers. If we place a dimension on the Filter Shelf, which Dimension isn’t present within the other shelf (independent of Rows and Columns), then we’ll call it because of the Slicing Filter. These are the dimension filters, which we’d like to use them in the dimensions field. The behavior of these filters is different for Multi-Dimensional Data Source, compared to the Relational data source.
+To apply slicing filtering, prepare a worksheet with some graphs or charts then use filter option with a dimensions attribute that is not selected for graph/chart.
+Method 1: In this method, we will simply draw a chart then drag and drop another attribute into the filter.
+
+Method 2: In this method, we will simply draw a chart then right-click on an attribute to show filter.
+
+Grouping in Visualization in Tableau
+
+Grouping : Grouping means a set of associated people acting together, especially within a larger organization or the action of putting people or things in a group or groups.
+
+Draw a graph to visualize the data and then apply the grouping technique.
+Here, the grouping can be done in two ways :
+
+By selecting the labels
+By creating a group in attribute manually.
+The selection of attributes can be done by using Ctrl + select.
+
+Example 1: By selecting labels
+Example 2: By creating a group manually
+
+Hierarchy in Tableau
+Hierarchy: Hierarchy is tree-like structure that represents the level-wise configuration. In Tableau, the data with relation can be used to form a hierarchy. Similar and related data are grouped in the form of a hierarchical structure to do further operations.
+
+Creating Hierarchy
+By click hierarchy
+By Drag and drop 
+By selecting fields and create
+----
+Removing Hierarchy
+
+Set in Tableau
+In this article, we will learn how to create, use, and delete set in tableau worksheet to do further operations. For this first look into two terms :
+
+Set: Tableau Sets are custom fields wont to hold the subset of knowledge supported a given condition. In real-time, you’ll create a group by selecting members from the list or a visualization. You can also do the same by writing custom Conditions or Selecting Top/Bottom few records in a Measure.
+To create set in tableau follow the given instructions :
+
+Here we will discuss some methods to create set in tableau with some examples given below:
+
+Example 1: In this example, we create set by just right-clicking on that attribute, click on Create, and then click Set.
+Example 2: In this example, we use a short trick of creating a set of an attribute by just selecting some random values and click on create set.
+xample 3: In this example, we use a set of an attribute (formed in the above example) and shows the further operations that can be performed on it.
+Example 4: In this example, we will learn how to delete a set of an attribute. One can simply delete it by right-clicking on it and then click delete.
+
+Combined Set in Tableau
+
+To create a combined set in tableau follow the given instructions:
+
+Select the sets that want to be combined.
+Right-click on the selected part.
+Click on create combined set.
+Add/modify the values (optional).
+Your combined set is ready.
+
+Example 2: In this example, we also create the combined set but with some modification.
+
+Here we can make combined sets in four different formats :
+
+Take the Union of values of both sets.
+Take the Intersection of values of both sets.
+Take values of set 1 which are not the part of set 2.
+Take values of set 2 which are not the part of set 1 (opposite of 3 formats).
+
+Example 4: In this example, we will learn how to delete a combined set. One can simply delete it by right-clicking on it and then click delete.
+
+Parameters in Tableau
+
+Parameters : Parameters are the solution to several of the foremost convenient tricks in Tableau thanks to their flexibility. aside from filters, parameters are also one of the foremost powerful tactics in Tableau for transferring control from the author to the highest user. As another benefit, providing this sort of user interaction not only improves the engagement together with your dashboards, but it improves the retention of insights and improves the likelihood that they’re going to be shared.
+
+Example 1: In this example, we create a parameter by simply clicking on the create parameter in the left-most section of the sheet.
+
+Example 2: In this example, we use a short trick of creating a parameter of an attribute by just right-clicking on that parameter, click on create, and then click parameter.
+
+Example 3: In this example, we use the parameter of an attribute and shows the further operations that can be performed on it.
+
+Example 4: In this example, we will learn how to delete a parameter of an attribute. One can simply delete it by right-clicking on it and then click delete.
+
+Tableau Bins
+
+Bins: Tableau bins are containers of equal size that store data values like or fitting in bin size. Also, we’ll say that bins a group of data into groups of equal intervals or size making it a scientific distribution of data. In Tableau, data from any discrete field are often taken to form bins. Although, Tableau users mostly use measure fields to form numeric bins.
+
+ To create bins in tableau follow the given instructions:
+
+Select an attribute
+Right click on it
+Click on create
+Click on bins
+Modify the suggested values (optional)
+Click ok.
+
+Manual Sorting of Visualization in Tableau
+
+Sorting the visualizations
+Visualization or visualisation (see spelling differences) is any technique for creating images, diagrams, or animations to communicate a message. Visualization through visual imagery has been an effective way to communicate both abstract and concrete ideas since the dawn of humanity. Sorting is any process of arranging items systematically, and has two common, yet distinct meanings: 
+
+Ordering: arranging items in a sequence ordered by some criterion
+Categorizing: grouping items with similar properties.
+
+There are various ways in which the visualizations can be sorted, among which sorting them manually is explained here.
+
+Manually sorting the visualizations
+For this we have to follow some steps :
+
+5. Draw a graph to visualize the data and then apply the sorting technique. Here, the visualization part is sorted manually by drag and drop. The user can select and the attribute 
+part and arrange wherever required.
+
+After adding the fields to rows and columns, in Marks section, click on labels and enable it to get the labels over the bars.
+
+Normal view :
+Sorting procedure :
+Sorted View :
+
+Sorting by Data Source order in Visualization in Tableau
+Here, the visualization part is sorted according to the Data Source Order in which two orders are given :
+
+Ascending Order: The data is arranged as given in the dataset i.e; first come first serve. 
+Descending Order: The data is arranged as opposed to the Ascending Order i.e; first come last serve.
+
+Sorting by field in Visualization in Tableau
+Sorting by field
+
+Draw a graph to visualize the data and then apply the sorting technique.
+Here, the visualization part is sorted according to the field and aggregation function on that 
+Field in which two orders are given :
+
+Ascending Order : The data is arranged according to the value of the aggregated function on field 
+in increasing order.
+Descending Order : The data is arranged according to the value of the aggregated function on field 
+in decreasing order.
+------------------------------
+Different Visualizations in tableau
+
+Line graph in Tableau
+
+Line graphs
+A line graph, also known as a line chart, is a type of chart used to visualize the value of something over time. For example, a manufacturer, who manufactures product X may plot the number of product sold over time to analyze the trend. The line graph consists of a horizontal x-axis and a vertical y-axis.
+
+Visualization with line graph
+
+To draw a line graph you have to select a minimum of two attributes( one in a row and one in a column) by dragging and dropping. Then select the chart option as a line.
+
+Dual Lines Chart in Tableau
+Dual Lines Chart: Line charts connect individual data points in a view. They provide a simple way to visualize a sequence of values and are useful when you want to see trends over time, or to forecast future values.
+
+To draw a dual lines chart you have to select minimum of three attributes by drag and drop into a row then apply the other parameter for better visualization.
+
+Bar Chart in Tableau
+
+Bar Chart : It is a graph that displays categorical data with rectangular bars with heights that are equivalent to the amounts they depict. The bars can be displayed vertically or horizontally. A vertical bar map is often referred to as the column map.
+
+5) To draw a bar chart you have to select minimum two attributes( one in row and one in column) by drag and drop then select the chart option as bar.
+
+Side-by-Side Bars in Tableau
+Side-by-side bar graph 
+In a side-by side bar chart, the bars are split into colored bar segment. In a stacked bar graph, the bar segments within a category bar are placed on top of the other, and in a side-by-side bar graph, they are placed next to every other field chosen
+
+To draw a side by side bar graph you have to select minimum three attributes( two in row and one in column) by drag and drop then select the chart option as side by side bar graph.
+
+Example 1:
+
+Drag and drop the fields in rows and columns.
+Choose the chart as side by side bar graph.
+
+Stacked bars
+The stacked bars are nothing but, the bar charts with segments inside. These internal segments add detail to the fields marked as bars and are differentiated by colors. It is mostly used to compare categorical data.
+
+To draw a stacked bar graph you have to select minimum three attributes( one in row and two in column) by dragging and dropping then select the chart option as stacked bar graph.
+
+
+Histogram: A histogram contains a rectangular area to display the statistical information which is proportional to the frequency of a variable and its width in successive numerical intervals. A graphical representation that manages a group of data points into different specified ranges. It has a special feature that shows no gaps between the bars and similar to a vertical bar graph.
+
+
+Cumulative Histogram: The cumulative histogram is a histogram in which the vertical axis gives not just the counts for a single bin, but rather gives the counts for that bin plus all bins for smaller values of the response variable.
+
+Scatter plot: A scatter plot is a set of dotted points to represent individual pieces of data in the horizontal and vertical axis. A graph in which the values of two variables are plotted along the X-axis and Y-axis, the pattern of the resulting points reveals a correlation between them.
+
+To draw a scatter plot, you have to select a minimum of two attributes (one in row and one in column) by drag and drop then select the chart option as scatter plot.
+
+Bubble Chart : A bubble chart is a type of chart that displays three dimensions of data. Each entity with its triplet (v1, v2, v3) of associated data is plotted as a disk that expresses two of the vi values through the disk’s xy location and the third through its size.
+
+A pie chart (or a circle chart) may be a circular statistical graphic, which is split into slices, for instance, numerical proportion. In a pie chart, the arc length of every slice (and consequently its central angle and area), is proportional to the number it represents.
+To draw a pie chart you have to select minimum two attributes( one in row and one in column) by drag and drop then select the chart option as pie.
+
+Crosstab :  A crosstab is a table showing the relationship between two or more variables. Where the table only shows the relationship between two categorical variables, a crosstab is also known as a contingency table.
+
+5) To draw a crosstab you have to select minimum two attributes( one in row and one in column) by drag and drop then select another attribute for mark option.
+
+Total in a crosstab by column in Tableau
+To calculate total you have to cross tab by drag and drop ans select the chart option as crosstab.
+
+Box Plot in Tableau
+
+Box Plot: It is the visual representation of the depicting groups of numerical data through their quartiles. Boxplot is also used for detecting the outlier in the data set. It captures the summary of the data efficiently with a simple box and whiskers and allows us to compare easily across groups.
+
+To draw a Box Plot you have to select a minimum of three attributes (one in row, one in column and one for view) by drag and drop then select the chart option as box plot.
+
+Bullet Graph: A bullet graph is a variation of a bar graph developed by Stephen Few. Seemingly inspired by the traditional thermometer charts and progress bars found in many dashboards, the bullet graph serves as a replacement for dashboard gauges and meters.
+
+To draw a bullet graph you have to select a minimum of three attributes (two in the row and one in the column) by drag and drop then select the chart option as a bullet.
+
+Area Chart in Tableau
+An area chart represents the change in one or more quantities over time. It is made by plotting a series of data points over time, connecting those data points with line segments, and then filling in the area between the line and the x-axis with color or shading. 
+To draw an area chart you have to select minimum two attributes( one in row and one in column) by dragging and dropping. Then select the chart option as Area.
+
+Heat Map: Heatmap is defined as a graphical representation of data using colors to visualize the value of the matrix. In this to represent more common values or higher activities brighter colors basically reddish colors are used and to less common or activity values darker colors are preferred. Heatmap is also defined by the name of the shading matrix.
+
+To draw a heat map you have to select a minimum of two attributes( one in the row and one in the column) by drag and drop then select the chart option as a heat map.
+
+Basic Map in Tableau
+
+Map: Map visualization is employed to research and display the geographically related data and present it within the sort of maps. This kind of data expression is clearer and more intuitive. We can visually see the distribution or proportion of knowledge in each region. It is convenient for everybody to mine deeper information and make better decisions.
+
+To draw a basic map you have to select a minimum of one attribute (a web attribute) by drag and drop then select the chart option as Map.
+
+Geographical Plot: Plot in Geographic Coordinates. If you have data that is associated with specific geographic locations, use geographic axes or charts to visualize your data on a map and provide visual context.
+
+Lollipop Chart: The lollipop chart could also be a composite chart with bars and circles. It’s a variant of the bar graph with a circle at the top, to spotlight the info value. sort of a bar graph, a lollipop chart is employed to match categorical data. 
+
+To draw a lollipop chart you have to select a minimum of three attributes (one in a row and two in columns with dual-axis) by drag and drop then select the chart option as bar in one axis and then apply dot on another axis.
+
+The circle view is another powerful visualization for comparative analysis. It is just like the scatter plot with the circle marker. Here, every mark is of shape circle and can be used for further operations.
+
+Dual Combination Chart: Combination charts are views that use multiple mark types within an equivalent visualization. 
+To draw a dual combination chart you have to select a minimum of three attributes (one date and another two measured values) by drag and drop into a row then apply the other parameters for better visualization.
+
+Treemap: Treemap is a form of a chart with rectangles. Here the division of field is shown in the form of rectangles with respect to the value of that field. The whole view part is divided into small rectangles according to the percentage value just like a pie chart.
+
+Funnel Chart: The Funnel chart is employed to see the progressive reduction of knowledge because it passes from one phase to a different phase. Data in each of those phases is represented as different portions of 100% (the whole). Like the chart, the Funnel chart doesn’t use any axes either. Each stage of the funnel represents a neighborhood of the entire. Therefore, it assumes the form of a funnel — with the primary stage being wide and therefore the largest, and every subsequent stage smaller than its previous stage.
+
+5. To draw a funnel chart you have to select minimum one attributes by drag and drop into row then apply the            another parameters for better visualization.
+
+Traditional Funnel Chart: A traditional funnel chart does not follow data visualization best practices, and a horizontal bar chart displaying the same data is one easier-to-read alternative.
+. To draw a traditional funnel chart you have to select minimum two attributes (one and another with negative            value of first) by drag and drop into row then apply the another parameters for better visualization.
+
+Waterfall Chart: The cumulative histogram is a histogram in which the vertical axis gives not just the counts for a single bin, but rather gives the counts for that bin plus all bins for smaller values of the response variable.
+To draw a waterfall chart we have draw a bar chart, convert to Gantt Chart, form negative axis and apply it to            make chart like waterfall.
+Draw a Bar Chart
+Make it running and convert to Gantt Chart
+Form a negative valued new field and apply on size
+Gantt Chart: A Gantt chart, commonly utilized in project management, is one among the foremost popular and useful ways of showing activities (tasks or events) displayed against the clock. On the left of the chart may be a list of the activities and along the highest may be a suitable duration. Each activity is represented by a bar; the position and length of the bar reflects the beginning date, duration and end date of the activity.
+
+To draw a Gantt chart you have to select minimum two attributes (one date attribute and one dimensions                  attribute) by drag and drop then select the chart option as Gantt.
+
+Create a Dashboard in Tableau
+
+Dashboard: A dashboard also consist of a number of views that allow you to compare various sets of data at once. A dashboard that displays all the views will be created if, for instance, you have a set of views that you merely evaluate each day and don’t need to travel to individual worksheets. Dashboards are accessed from the workbook’s lowest-level tabs similarly to worksheets. A sheet’s data is linked to any dashboards that contain it, so when you edit a sheet, those dashboards also change, and vice versa. The most recent data from the information source updates both sheets and dashboards.
+
+Text Object on Dashboard in Tableau
+ To apply filters in dashboard we must select a sheet, use filter and then apply it on full dashboard.
+
+This can be done by two ways :
+By clicking on funnel :
+By clicking use a filter followed by down arrow 
+Example 1:
+
+In this example we simply select a region of a pie chart and apply the filter. Finally, the result is formed from the all graphs but for that selected specific region only.
+In this example we will learn how to remove filter in dashboard. It is just similar as adding a filter. One can remove filter by any of the above mentioned two methods.
+Tableau – Device Preview
+
+. To create a device preview of a dashboard in tableau one need to click on Dashboard tab (at top left), then click        on Device Layouts and then Add Desktop or Add Tablet. One can apply different modifications for better look at      different view ports.
+
+
+Format Dashboard Layout in Tableau
+
+
+Forecast in Tableau
+
+Forecasting: Forecasting is about predicting the top of the day value of a measure. There are many mathematical models for forecasting. Tableau uses the model mentioned as exponential smoothing. In exponential smoothing, recent observations are given relatively more weight than older observations.
+
+For forecasting, you have to first draw a graph or chart by selecting attributes( by drag and drop ) then apply the concept of forecasting.
+
+Reference line in Tableau
+
+Reference Line: A reference line may be defined as the line based on some aggregate function which is used to draw on visualization. This line is drawn for doing further analysis and for extracting (highlighting) the important parts of the visualization.
+
+To draw reference line you have to first draw a graph or chart by selecting attributes( by drag and drop ) then apply the concept of reference lines.
+
+Reference Band in Tableau
+Reference Band: A reference band is a shaded region behind a graph of a continuous measure, and it is useful for highlighting the area falling in that band. A reference band shades the area from and to a certain range, making it easier to identify and understand the values falling into the band.
+
+To draw a reference band you have to first draw a graph or chart by selecting attributes( by drag and drop ) then apply the concept of reference band.
+
+Reference Distribution Band in Tableau
+
+Reference distribution: The reference distribution is a distribution that uses the reference line for the division. The visualization is distributed in some parts with the help of a reference line as it works as a distribution boundary between these parts of the visualization.
+
+
+Trend Lines in Tableau
+
+Trend Line: Trend line is defined as the line that connects two or more points and extends the line on the basis of these points. This is used to describe important information and most importantly for analysis.
+
+To draw a trend line you have to first draw a graph or chart by selecting attributes( by drag and drop ) then apply the concept of trend lines.
+
+Tableau – Building up a storyline
+
+Visualisations are a part of business analysis. But it is also very important to communicate your findings effectively. Tableau 10 includes stories, which were first introduced in an update to version 8. Using stories, you create a sequence of story points consisting of worksheets in your workbook. You can use them to build a persuasive narrative about your insights. This article will show you how to create stories. Steps to perform:
+
+In the Tableau, connect to the databases.
+The data source has three data files – Product, OrderDetails, PropertyInfo. These are three different excel sheet present in one data file.
+
+
+World Cloud: A Word cloud, also referred to as a Tag cloud, may be a visual representation of text data, typically want to depict keyword metadata (tags) on websites or to see free morpheme text[Wikipedia]. Word clouds are a popular type of info-graphic with the assistance of which we will show the frequency of words in our data. This can be depicted either by the size or the color of the chosen fields in the data. They are a reasonably powerful feature to draw attention to your presentation or story.
+
+To draw a word cloud you have to select minimum one attributes by drag and drop into the sheet area then apply the other parameters for better visualization.
+
+Example 1:
+
+In this example, we simply illustrate a word cloud and apply an attribute by size on it.
+
+
+
+
+
+

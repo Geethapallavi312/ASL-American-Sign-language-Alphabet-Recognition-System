@@ -1,0 +1,113 @@
+1. Creating of basic Charts
+2. Creating maps
+3. table and Matrix in power BI
+	1. Creating a simple table
+	2. Formating the table
+	3. Conditional Formating in Table
+	4. Changing Aggregation in Table
+	5. Creating a matrix in power BI
+	6. Automatic hierarchy in matrix( hierarchies can only be created in matrics)
+	7. Subtotal and grand total
+	8. Number Formating in Table and Matrix
+
+4. Other Charts in Power BI
+	1. Line chart
+	2. Drill down in Line Chart
+	3. Area Chart
+	4. Line vs Column Chart
+	5. Scatter Plot
+	6. Waterfall Chart
+	7. TreeMap
+	8. Guage Chart
+Scatter plot/scatter chart is the only animation  chart by default in power bi
+Tree map is a hierarchy chart. We can show paerent and child distribution.
+Gauge charts are used when we want to compare the result with the target
+KPI- key performance Indexs--- for analysing the indexes
+
+6. Cards and Filters
+	1. Number Card
+	2. Text Card
+	3. Date Card
+	4. Multi-Row card
+	5. Filter on Visual
+	6. Filter on Page
+	7. Filter on All Pages
+	8. Drill through
+Cards are the indicators giving the only numbers(date etc)
+
+Filters are important parts in powerbi that is used to show certain data
+there are lot of filetrs in python
+1. filetrs on visuals
+2. filetr on page
+3. filetr on all pages
+4. Drill through
+Drill through is an important topic in power bi that is used to drill down and navigate to different pages
+i have created 3 sheets that contain different charts in each 
+
+Slicers 
+1. Slicers for Text
+2. Format text Slicers
+3. Date Slicer
+4. Number Slicer
+Slicers are nothing but interactive filters which can be used to filter your report, maps, dashboards, charts
+
+Advance Visuals in Power BI
+
+1. Animated Bar Chart Race
+2. Drill Drown Donut Chart
+3. Drill Down Column Chart
+4. Word Cloud
+5. Sankey Chart
+6.Infographic
+7. Play Axis
+8. Scoller
+9. Sunburst Chart
+10. Histogram
+
+
+Section 9: Objects and Actions (hyperlinks)
+1. Insert Image
+2. Insert Text
+3. Insert Shapes
+4. Insert Buttons
+5. Action- WEb URL
+6. ACtion-Page Navigation
+7. Action -Back 
+8. Action -Bookmark
+Bookmark is a combination of multiple items(action, bookmark,selection page etc)
+
+section 10: Power BI Service Introduction
+1. Creating a superstore report
+2. Create an account on power BI service
+3. Publish report to power BI Service Account
+4. Export (PPT,PDF, PBIX)  Report and share
+5. Comment, share and Subscribe to a report
+6. Create a dashboard in powerBI service
+7. Problem in power BI Dashboard and its solution
+8. Automatic REfresh-Data gateway
+9. Create a Report Directly in Power BI service
+
+Reports can be created on the desktop
+dashboard can only be created on the online services
+the power bi dashboards are not intercative when we click on it it moves to the original page where it cam from.
+
+Text Functions In Power query (power BI):
+1. Merge
+2. Split and Trim
+3. Upper ,lower and Proper
+4. Add Suffix and Mid
+5. Left, Right and Mid
+6. Extract Text with Delimiter
+
+There are allmost 100 functions in power query to clean the data.
+there are atmost 30 functions for the date functions in power query.
+
+Date Functions in Power Query
+1. Year , Quarter, Month, Day
+2. Difference between Dates, Earliest and Latest
+3. name of Day and Name of Month
+4. Day of Week/ Month/Year & Week of Month / Year
+5. Extract Date from date and Time
+6. Calculate Age in 2 buttons Clicks
+7. Which day of Year , Quarter, Month your Date of Birth is
+

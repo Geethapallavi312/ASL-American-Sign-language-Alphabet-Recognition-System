@@ -1,0 +1,325 @@
+1. To create the table 
+
+create table Customer(
+Id int Primary Key,
+order_id int,
+customer_name Varchar(225)
+);
+
+2. Second highest salary in the given colum
+
+SELECT max(salary) form Customer
+where salary <(select max(salary) from Customers);
+
+3. How to get nth highest salary form the table.
+
+select salary
+from (select salary, dense_rank() over(order by salary desc) as rank
+from employee) as ranked_salaries
+where rank=N;
+
+4. Fetech all employee salary greatern than average.
+
+select * from Employee
+where salary>(select avg(salary) from Employee;
+
+5. write a query to display the current date and time.
+
+select current_timeStamp;
+
+6. how to find duplicates in the table
+
+select column_name, count(*) from Employee group by column_name
+having count(*) >1;
+
+7.Delete duplicate rows in a table ?
+
+with CTE AS(
+select *, ROW_NUMBER OVER(Partition by col1 group by col1) as row_num
+from Employee
+)
+delete from CTE
+where row_num>1; 
+
+8. How to get common records from two tables
+
+select *
+from table1
+intersect
+select *
+from table2;
+
+9.how to retrive last 10 records from a table ?
+
+select * from table
+order by ID desc
+limit 10;
+
+10. How do you fetech the 1op 5 employees with the highest salaries?
+
+select * from Employee
+order by salary desc
+limit 5;
+
+11. Total salary of all employees.
+
+select sum(salary) from Employee;
+
+12.find all the employee who joined in year 2020.
+
+select * from Employee
+where Year(join_date)=2020;
+
+13.Employee name start with letter A
+
+select emp_name from Employee
+where emp_name like 'A%';
+
+14.employee who did not have a manager
+
+select * from Employee
+where manager_id IS NULL;
+
+15.Department with highest employees
+
+select department_id, count(*)
+from Employee
+group by department_id
+order by count(*) desc
+limit 1;
+
+
+16. Count of each employee in each department
+
+select department_id, count(*)
+from Employee
+group by department_id;
+
+17.Employee having highest salary in each department
+
+select department_id, employee_name, salary
+from Employee as e
+where salary=(select max(salary) from Employee where department_id=e.employee_id);
+
+
+18.employee salary between 50000 and 100000
+
+select * from employee
+where salary between 50000 and 100000;
+
+19.Youngest employee from organization
+
+select * from Employee
+order by birth_date DESC
+limit 1;
+
+20.fetch 1st and last record from table.
+
+(select * from Employee order by Employee_id limit 1)
+union all
+(select * from Employee order by Employee_id desc limit 1);
+
+21. All employee who report to certain manager.
+
+select * from Employee
+where manager_id=?;
+
+22. Total number of departments in the Employee
+
+select count(distinct(department_id)) from Employee;
+
+23. department with lowest average salary
+
+select deprtment_id , avg(salary)
+form Employee
+group by department_id
+order by avg(salary) asc
+limit 1;
+
+24. delete all employee from a department
+
+delete rom employee
+where department_id=?;
+
+25.employee who have been more than 5 years in company
+
+select * from Employee
+where DATEDIFF(curDate(),join_date)>1825;
+
+26.second lagest value form the table
+
+select max(column_name) from Employee
+where column_name <(select max(column_name) from Employee);
+
+27. Remove all records from the table but keep table structure 
+
+Truncate Table Employee;
+
+28. All employee records in XML Format.
+
+Select Employee_id, name, salary from Employee for XML Auto;
+
+29.Current month name
+
+select Monthname(curDate());
+
+30. select string to lowercase
+
+select Lower(name) from EMployee;
+
+31. Employee with no subordinates
+
+select * from Employee
+where Employee_id not in (select manager_id from Employees where manager_id is not null);
+
+32. Calcuate sales per customer 
+
+select customer_name, sum(sales)
+from Customer
+group by customer_name;
+
+33.how do you write a query to check if a table is empty or not;
+
+select CASE
+	when exists(select 1 from table_name)
+	Then 'NOt Empty'
+	else 'EMpty'
+End;
+
+34. second highest salary for each department
+
+select department_id,salary from (select department_id,salary,dense_rank() over(partion by department_id order by salary desc )as rank
+from employee ) as ranked_salaries
+where rank =2 ;
+
+35. Fetch as salary whose salary is multiple of 10000
+
+select salary from Employee
+where MOD(salary,10000)=0;
+
+36. Fetech records where column has null values?
+select * from Employee
+where column_name is null;
+
+37.Total employees in each title
+
+select job_title, count(*)
+from employee
+group by job_title;
+
+38. Employee anme end with n
+
+select emp_name from Employee
+where emp_name like '%n';
+
+39. How to find employee who work in both department 101 and 102?
+
+select emp_id from employee where department_id in (101,102)
+group by employee_id
+having count(distinct department_id)=2;
+
+
+40. Employee with same salary
+
+select * from Employee
+where salary in (select salary from employee 
+group by salary having count(*)>1);
+
+41. salary update based on their department?
+
+update employees
+set salary =Case
+when department_id=101 then salary*1.10
+when department_id=102 then salary*1.05
+else salary
+end;
+
+42. Employee without department
+
+select * from employee
+where department_id is null;
+
+43.Max salary, min salary in each department
+
+select department_id, max(salary), min(salary)
+from employee group by department_id;
+
+
+44. employee hired in last 6 months
+
+select * from employee
+where datediff(curdate(), join_date)<180;
+
+45. Department wise total and avg salary
+
+select department_id, sum(salary), avg(salary)
+from employees
+group by department_id;
+
+46.how to find employee who joined the company in the same moth and year as their manager
+select e.employee_id, e.name
+from employee e
+join employee m on e.manager_id=m.employee_id
+where MONTH(e.join_date)=month(m.join_date)
+and year(e.join_date)=year(m.join_date);
+
+47.How to retrive employee names and salaries in a single string?
+
+select concat(name, 'earns',salary) as employee_info from employees;
+
+48.employee salary higher than their manager salary?
+
+here we are using the joins concept
+
+select e.employee_id, e.name
+from employees e
+join employee m
+on e.manager_id=m.employee_id
+where e.salary>m.salary;
+
+
+49.employees with department less than 3
+select * from employee
+where department_id in (select department_id from employee group by department_id having count(*)<3);
+
+50 Employee with same first name?
+
+select * from employee
+where emp_name in (select first_name from employee
+group by first_name having count(*)>1);
+
+51.employee whose salary is in the top 10%?
+select * from employees
+where salary>=(select percentile_count(0.9)
+within group (order by salary asc)
+from employee;
+
+52. Employee grouped by their age
+
+select case
+when age between 20 and 30 then '20-30'
+when age between 31 and 40 then '31-40'
+else '41+'
+end as age_bracket,
+count(*)
+from employee
+group by age_bracket;
+
+
+53.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
